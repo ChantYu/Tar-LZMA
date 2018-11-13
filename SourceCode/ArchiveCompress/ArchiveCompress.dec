@@ -1,0 +1,14 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010006
+  PACKAGE_NAME                   = ArchiveCompress
+  PACKAGE_GUID                   = e79d4201-2f25-4f05-bbb0-085ca74dd900
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+  Archive/Tar
+  Compress/LZMA
+  ../StdLib/Include
+  ../StdLib/Include/X64
+  ../StdLib/Include/sys
+
+[Protocols]
